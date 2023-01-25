@@ -1,0 +1,12 @@
+startshape loopyshapes
+
+path loopyshapes {
+	loop 14 [r (720/13)]
+		LINETO(0, 1)
+	FILL(CF::EvenOdd)[]
+    MOVETO(0,0.5)
+    loop 6 [r (60)]
+		LINETO(0, 0.5)
+}
+
+CF::Background = [hue 100 b -.375 saturation .50]
